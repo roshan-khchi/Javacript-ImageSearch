@@ -7,21 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container">
-        <div class="fullimage">
-
-            <div class="maindiv">
-                <div class="header">
-                    <span class="" title="NULOJIX 250 mg powder for concentrate for solution for infusion"> NULOJIX 250 mg powder for concentrate for solution for infusion </span>
-                    <span class="closeButton">x</span>
-                </div>
-                <main class="main"><!---->
-                        <img src="https://images.unsplash.com/photo-1520004434532-668416a08753?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NTM0NzR8MHwxfHNlYXJjaHwyfHx0ZXN0fGVufDB8MHx8fDE3MDU1MDA4NTl8MA&ixlib=rb-4.0.3&q=80&w=1080">
-                </main>
-            </div>
-
-        </div>
+    <div id="frame"> 
+        <h2 class="head">Image Viewer</h2> 
+        <button id="close-button"><i class="fa-solid fa-circle-xmark"></i></button> 
+        <img id="image" src="loading.png" alt="Image"> 
+    </div>
         <h1>Image Search App</h1>
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search for images">
@@ -30,7 +20,9 @@
         <div class="search-results">
         </div>
     </div>
+    
     <button id="show-more-button">Show more</button>
+    <script src="https://kit.fontawesome.com/ca55d50e55.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
